@@ -4,6 +4,7 @@ FROM ubuntu
 # Install python and pip
 RUN apt-get update
 RUN apt-get upgrade -y
+RUN apt-get install -y nano
 RUN apt-get install -y python3 python3-pip python3-dev
 
 # install Python modules needed by the Python app
